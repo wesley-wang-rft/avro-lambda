@@ -6,8 +6,8 @@ import com.amazonaws.auth.BasicAWSCredentials;
 public class AWSCredentialsUtil {
 
 	public static AWSCredentials getAWSCredentials() {
-		AWSCredentials credentials = new BasicAWSCredentials("AKIAJBLMFPATGXAEHA7Q",
-				"fhzFdGWsprpta0PvwYkwsG8X4mMaXVRIX2p8WriN");
+		AWSCredentials credentials = new BasicAWSCredentials("TEST",
+				"TEST");
 		return credentials;
 	}
 
